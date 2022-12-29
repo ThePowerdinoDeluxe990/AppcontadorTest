@@ -1,0 +1,77 @@
+#countLabel{
+    /* lo dejo asi seguro que habra un loco que llegue a el numero mas alto*/
+
+font-size:100px;
+text-align:center;
+letter-spacing:0px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background:linear-gradient(black,rgb(32, 30, 30));
+color:aliceblue;
+width:500px;
+height:150px;
+border-width:5px;
+border-color:rgb(2, 124, 32);
+justify-content:center;
+
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -140%);
+    transform: translate(-50%, -140%);
+    position:absolute;
+    border-style:solid;
+}
+#decreaseBtn{
+    font-size:65px;
+    justify-content:center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-130%, -50%);
+    transform: translate(-130%, -50%);
+    position:absolute;
+    background:linear-gradient(rgb(151, 0, 0),rgb(0, 3, 173));
+    color:grey;
+
+
+  
+
+}
+#resetBtn{
+    font-size:65px;
+    justify-content:center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position:absolute;
+    background:linear-gradient(rgb(151, 0, 0),rgb(0, 26, 173));
+   color:grey;
+
+
+    
+}
+#increaseBtn{
+    font-size:65px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(32%, -50%);
+    transform: translate(32%, -50%);
+    position:absolute;
+    background:linear-gradient(rgb(151, 0, 0),rgb(0, 26, 173));
+    color:grey;
+    
+
+
+}
+body{
+background:linear-gradient(rgb(0, 24, 129),rgb(148, 17, 255));
+background-attachment:fixed;
+
+
+
+}
